@@ -10,7 +10,7 @@ public class PasswordConfig {
     private static final String SPECIAL_CHARS = "!#@&)(_";
 
     @Bean
-    public PasswordSymbols allsymbols() {
+    public PasswordSymbols allSymbols() {
         return new PasswordSymbols(ALPHA + NUMERIC + SPECIAL_CHARS);
     }
 

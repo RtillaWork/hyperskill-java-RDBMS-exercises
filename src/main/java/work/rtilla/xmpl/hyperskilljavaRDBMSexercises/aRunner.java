@@ -1,7 +1,9 @@
 package work.rtilla.xmpl.hyperskilljavaRDBMSexercises;
 
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 public class aRunner implements CommandLineRunner {
     private final PasswordGenerator passwordGenerator;
 

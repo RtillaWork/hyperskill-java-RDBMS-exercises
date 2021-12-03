@@ -16,7 +16,6 @@ public class PasswordGenerator {
 
     public String generate(int length) {
         int symbolsCount = symbols.getSymbols().length();
-
         StringBuilder password =  new StringBuilder();
         for (int i = 0; i < length; i++) {
             password.append(symbols.getSymbols().charAt(random.nextInt(symbolsCount)));
